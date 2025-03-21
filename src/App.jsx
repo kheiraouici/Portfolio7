@@ -1,5 +1,5 @@
 
-import {createBrowserRoute} from "react-router-dom";
+import {createBrowserRoute, RouterProvider} from "react-router-dom";
 import './App.css';
 import SearchBar from './components/SearchBar';
 
@@ -19,7 +19,7 @@ const App =() => {
 
   return (
     <>
-   <div>bonjour</div>
+  <RouterProvider router={router}/>
       
     </>
 
