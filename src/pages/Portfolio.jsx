@@ -1,14 +1,14 @@
 import Navbar from "../components/Navbar";
-import Main from "../components/Main";
+import Realisation from "../components/Realisation";
 import Footer from "../components/Footer";
 
-const Home =() =>{
+const Portfolio =() =>{
     return(
       <>
       <Navbar/>
-      <Main/>
+       <Realisation/>
       <Footer/>
       </>
     )
 }
-export default Home
+export default Portfolio

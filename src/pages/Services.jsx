@@ -1,14 +1,15 @@
 import Navbar from "../components/Navbar";
-import Main from "../components/Main";
+import Serv from "../components/Serv";
 import Footer from "../components/Footer";
 
-const Home =() =>{
+
+const Services =() =>{
     return(
       <>
       <Navbar/>
-      <Main/>
+     <Serv/>
       <Footer/>
       </>
     )
 }
-export default Home
+export default Services

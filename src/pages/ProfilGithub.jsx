@@ -1,14 +1,14 @@
 import Navbar from "../components/Navbar";
-import Main from "../components/Main";
+import ProfilGit from "../components/ProfilGit";
 import Footer from "../components/Footer";
 
-const Home =() =>{
+const Profilgithub =() =>{
     return(
       <>
       <Navbar/>
-      <Main/>
+     <ProfilGit/>
       <Footer/>
       </>
     )
 }
-export default Home
+export default Profilgithub

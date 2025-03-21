@@ -1,6 +1,9 @@
 
-import { createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import './App.css';
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 
 const Router = createBrowserRouter([
@@ -19,14 +22,19 @@ const Router = createBrowserRouter([
 ])
 
 const App =() => {
- 
+  <RouterProvider Router={Router}/>
 
   return (
     <>
-   <div><h1>hello</h1></div>
-   <RouterProvider router={Router}/>
-      <a href="./pages/Home">home</a>
-      <a href="./pages/Contact">contact</a>
+
+    <Navbar/>
+    <Main/>
+    <Footer/>
+  
+   
+   
+   
+     
     </>
 
   )
