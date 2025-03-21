@@ -12,6 +12,10 @@ const router =createBrowserRoute([
     path :"/Home",
     element: <div>home</div>
   }
+  {
+    path :"/Contact",
+    element: <div>Contact</div>
+  }
 ])
 
 const App =() => {
@@ -19,8 +23,10 @@ const App =() => {
 
   return (
     <>
+   <div><h1>hello</h1></div>
   <RouterProvider router={router}/>
-      
+      <a href="./pages/Home">home</a>
+      <a href="./pages/Contact"></a>
     </>
 
   )
