@@ -4,7 +4,7 @@ import './App.css';
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
-import Nav from "./components/Nav";
+import Navbar from './components/Navbar';
 import Home from "./pages/Home";
 import MentionLegale from "./pages/MentionLegale";
 import Portfolio from "./pages/Portfolio";
@@ -48,9 +48,9 @@ const App =() => {
   <RouterProvider Router={Router}/>
 
   return (
-    <>
- 
-   <Nav/>
+    <> 
+ <Navbar/>
+   
   <Main/>
    <Footer/>
    
