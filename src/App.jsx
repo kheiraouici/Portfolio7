@@ -1,10 +1,11 @@
 
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './App.css';
+import { Link } from 'react-router-dom';
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
-import Navbar from './components/Navbar';
+import Navbar from './components/Link';
 import Home from "./pages/Home";
 import MentionLegale from "./pages/MentionLegale";
 import Portfolio from "./pages/Portfolio";
