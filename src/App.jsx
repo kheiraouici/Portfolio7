@@ -1,37 +1,58 @@
 
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './App.css';
-import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-
+import Contact from "./pages/Contact";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import MentionLegale from "./pages/MentionLegale";
+import Portfolio from "./pages/Portfolio";
+import ProfilGithub from "./pages/ProfilGithub"; 
+import Services  from "./pages/Services";
 
 const Router = createBrowserRouter([
   {
     path :"/",
-    element: <div>page d'accueil</div>,
+    element : <Home/>
   },
   {
     path :"/Home",
-    element: <div>home</div>
+    element : <Home/>
   },
   {
     path :"/Contact",
-    element: <div>Contact</div>
+    element: <Contact/>,
+  },
+  {
+    path :"/MentionLegale",
+    element : <MentionLegale/>
+  },
+  {
+    path :"/Portfolio",
+    element : <Portfolio/>
+  },
+  {
+    path :"/ProfilGithub",
+    element : <ProfilGithub/>
+  },
+  {
+    path :"/Services",
+    element : <Serv/>
   }
 ])
+
+
 
 const App =() => {
   <RouterProvider Router={Router}/>
 
   return (
     <>
-
-    <Navbar/>
-    <Main/>
-    <Footer/>
-  
-   
+ 
+   <Navbar/>
+  <Main/>
+   <Footer/>
    
    
      
