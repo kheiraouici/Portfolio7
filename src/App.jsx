@@ -15,11 +15,11 @@ import ProfilGithub from "./pages/ProfilGithub";
 import Services  from "./pages/Services";
 
 import Footer from "./components/Footer";
-
-import Lien from "./components/Lien";
-
 import Main from './components/Main';
-import Root from "./components/Root";
+
+import NavbarM from "./components/NavbarM";
+
+
  
 
 
@@ -91,12 +91,10 @@ const App =() => {
 
   return  <RouterProvider router={Router}/> ,
 ( <>
- <Root/>
+  <NavbarM/>
  <Main/>
  <Footer/>
- <ErrorBoundary>
-  <MyWidget />
-</ErrorBoundary>
+
    </>
 
 )

@@ -1,11 +1,11 @@
-import Navbar from "../components/Lien";
+import NavbarM from "../components/NavbarM";
 import Main from "../components/Main";
 import Footer from "../components/Footer";
 
 const Home =() =>{
     return(
       <>
-      <Navbar/>
+      <NavbarM/>
       <Main/>
       <Footer/>
       </>

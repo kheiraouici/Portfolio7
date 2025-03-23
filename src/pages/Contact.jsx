@@ -1,4 +1,4 @@
-import Navbar from "../components/Lien";
+import NavbarM from "../components/NavbarM";
 import MainContact from "../components/MainContact";
 import Footer from "../components/Footer";
 
@@ -7,7 +7,7 @@ const Contact = () => {
   return (
   
    <>
-    <Navbar/>
+    <NavbarM/>
  <MainContact/>
     <Footer/>
     </> 

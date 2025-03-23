@@ -1,11 +1,11 @@
-import Navbar from "../components/Lien";
+import NavbarM from "../components/NavbarM";
 import Realisation from "../components/Realisation";
 import Footer from "../components/Footer";
 
 const Portfolio =() =>{
     return(
       <>
-      <Navbar/>
+      <NavbarM/>
        <Realisation/>
       <Footer/>
       </>

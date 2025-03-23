@@ -1,11 +1,11 @@
-import Navbar from "../components/Lien";
 import ProfilGit from "../components/ProfilGit";
 import Footer from "../components/Footer";
+import NavbarM from "../components/NavbarM";
 
 const Profilgithub =() =>{
     return(
       <>
-      <Navbar/>
+      <NavbarM/>
      <ProfilGit/>
       <Footer/>
       </>

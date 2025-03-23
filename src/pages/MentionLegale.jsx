@@ -1,12 +1,12 @@
 import { Accordion } from "react-bootstrap";
-import Navbar from "../components/Lien";
+import NavbarM from "../components/NavbarM";
 import Form from "../components/Form";
 import Footer from "../components/Footer";
 
 const Mentionlegale =() =>{
     return(
       <>
-      <Navbar/>
+      <NavbarM/>
       <Accordion/>
       <Footer/>
       </>

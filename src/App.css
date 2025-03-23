@@ -13,7 +13,7 @@ hr {
   display: flex;
   justify-content: space-between;
 }
-.nav Link {
+.nav a {
   color:inherit;
 }
 .nav ul {

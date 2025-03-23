@@ -1,4 +1,4 @@
-import Navbar from "../components/Lien";
+import NavbarM from "../components/NavbarM";
 import Serv from "../components/Serv";
 import Footer from "../components/Footer";
 
@@ -6,10 +6,10 @@ import Footer from "../components/Footer";
 const Services =() =>{
     return(
       <>
-      <Navbar/>
+      <NavbarM/>
      <Serv/>
       <Footer/>
       </>
     )
 }
-export default Services
+export default Services 
