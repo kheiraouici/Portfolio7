@@ -1,4 +1,4 @@
-import { createBrowserRouter, Link, RouterProvider} from 'react-router-dom';
+import { createBrowserRouter, Link, NavLink, RouterProvider} from 'react-router-dom';
 
 import './App.css';
 
@@ -13,8 +13,14 @@ import Portfolio from "./pages/Portfolio";
 import ProfilGithub from "./pages/ProfilGithub";
 
 import Services  from "./pages/Services";
+
 import Footer from "./components/Footer";
- import Lien from "./components/Lien";
+
+import Lien from "./components/Lien";
+
+import Main from './components/Main';
+ 
+
 
 
 const Router = createBrowserRouter([
@@ -76,7 +82,15 @@ const Router = createBrowserRouter([
   }
 
 ])
-
+function Root (){
+  return <>
+    <header>
+      <nav>
+        <NavLink to="Home">Home</NavLink>
+      </nav>
+    </header>
+  </>
+}
 
 
 
@@ -84,10 +98,11 @@ const App =() => {
 
   return  <RouterProvider router={Router}/> ,
 ( <>
- <Lien/>
+ <Root/>
  <Main/>
  <Footer/>
-</>)
+ </>
+)
 }
 
 export  default App

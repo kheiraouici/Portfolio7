@@ -63,4 +63,4 @@ const MainContact =()=>{
         </>
     )
 }
-export default Conct
+export default MainContact
