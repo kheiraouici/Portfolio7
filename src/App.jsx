@@ -19,6 +19,7 @@ import Footer from "./components/Footer";
 import Lien from "./components/Lien";
 
 import Main from './components/Main';
+import Root from "./components/Root";
  
 
 
@@ -82,15 +83,7 @@ const Router = createBrowserRouter([
   }
 
 ])
-function Root (){
-  return <>
-    <header>
-      <nav>
-        <NavLink to="Home">Home</NavLink>
-      </nav>
-    </header>
-  </>
-}
+
 
 
 
@@ -101,7 +94,11 @@ const App =() => {
  <Root/>
  <Main/>
  <Footer/>
- </>
+ <ErrorBoundary>
+  <MyWidget />
+</ErrorBoundary>
+   </>
+
 )
 }
 
