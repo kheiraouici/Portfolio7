@@ -1,5 +1,5 @@
 import { Accordion } from "react-bootstrap";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Lien";
 import Form from "../components/Form";
 import Footer from "../components/Footer";
 

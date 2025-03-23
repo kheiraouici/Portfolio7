@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Lien";
 import ProfilGit from "../components/ProfilGit";
 import Footer from "../components/Footer";
 

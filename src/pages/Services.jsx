@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Lien";
 import Serv from "../components/Serv";
 import Footer from "../components/Footer";
 

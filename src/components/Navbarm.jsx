@@ -1,6 +1,6 @@
 
 
-function Navbar () {
+function Navig () {
     return <>
     <nav className="nav">
     <a href="/" className="site-title">JOHN DOE</a>
@@ -27,6 +27,6 @@ function Navbar () {
 </nav>
 </>
 }
-export default Navbar
+export default Navig
 
 
